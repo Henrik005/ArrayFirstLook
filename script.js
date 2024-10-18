@@ -23,14 +23,13 @@ function updateView(){
 
 //Controller
 function printList(){
-    for (let i = 0; i < listOfRandomCrap.lenghtr; i++){
+    for (let i = 0; i < listOfRandomCrap.length; i++){
         crapGoesHere += listOfRandomCrap[i];
         console.log(crapGoesHere) 
     }
     updateView();  
    
 }
-
 
 
 
